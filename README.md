@@ -8,6 +8,14 @@ Steps for setting kafka on windows:
   -6>go to kafka\bin\windows, open new cmd, we need to consume from this particular topic:(consumer)
                    kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test(topic name) --from-beginning
   
+  ***********************************************************************************************************************
+  To create topic:
+                    got to bin-windows-->kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic KAFKA_MSG(topicname)
+                    
+ **************************************************************************************************************************************
+ 
+ TO consume from that topic:
+ go to bin-windows-->kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic KAFKA_MSG(topicname) --from-beginning
   
                    
                 
