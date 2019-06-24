@@ -22,4 +22,6 @@ Steps for setting kafka on windows:
     Kafka: 9092
     Zookeeper: 2181
         
+
+Downloading and setting up zookeeper -- https://www.edureka.co/community/39059/installing-zookeeper-on-windows
                 
