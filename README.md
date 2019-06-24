@@ -23,5 +23,7 @@ Steps for setting kafka on windows:
     Zookeeper: 2181
         
 
-Downloading and setting up zookeeper -- https://www.edureka.co/community/39059/installing-zookeeper-on-windows
+--> Downloading and setting up zookeeper -- https://www.edureka.co/community/39059/installing-zookeeper-on-windows
+    After installing, start zkserver.sh and zkserver.cmd 
+
                 
